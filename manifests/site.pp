@@ -1,6 +1,7 @@
 node default {
 file {'/root/README.kam':
-  ensure => file,
+  ensure  => file,
   content =>'This is a readme file dummy',
+  owner   => 'root',
   }
 }
